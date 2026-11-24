@@ -1,0 +1,15 @@
+# Local-only environment and build artifacts. The submission must not include .venv/.
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+artifacts/
+
+# Baseline fetch archives (the extracted tree is kept; the archive is not)
+vendor/.baseline/ta.tar.gz
+*.tar.gz
+*.zip
+
+# Secrets
+.env
+.env.enterprise
